@@ -371,39 +371,4 @@ footer{
 }
 
 
-*{
-  padding: 0 ;
-  margin: 0 ; 
-}
 
-.main-section-wrap{
-  width: 1020px ;
-  margin: 0 auto;
-}
-.main-section-wrap > h1{
-  text-align: center ;
-  margin-bottom: 20px;
-}
-.main-section-wrap .slide-box .content {
-  margin-right: 10px;
-  margin-left: 10px;
-  border-radius: 30px ;
-  overflow: hidden ;
-}
-
-.slide-box .content > .img-box{
-  width: 100%;
-  padding-bottom: 100% ;
-  background-repeat: no-repeat;
-  background-size: auto 100% ;
-  background-position: center;
-  transition: 0.5s ;
-}
-.slide-box .content:hover > .img-box{
-  background-size: auto 105% ;
-}
-.slide-box .content > .txt-box{
-  padding: 20px ;
-  padding-bottom: 80px ;
-  background-color: #1d4821;
-}
